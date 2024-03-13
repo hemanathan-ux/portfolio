@@ -2696,11 +2696,20 @@ h6 {
     top: 50%;
     left: 50%; }
 
+    
+
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
   @media (max-width: 480px) {
     .portfolio_details_inner .row {
       margin-bottom: 30px; } }
+
+      .col-lg-12 portfolio{
+        padding-left: 0% ;
+        padding-right: 0%;
+      }
+
+
 .portfolio_details_inner p {
   margin-bottom: 30px;
   font-size: 14px; }

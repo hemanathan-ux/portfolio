@@ -15,7 +15,7 @@
     content: '';
     position: absolute;
     width: 2px;
-    background: #000000;
+    background: #0A0A0A;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -47,7 +47,7 @@
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #000000;
+    border: 2px solid #0A0A0A;
     border-radius: 16px;
     z-index: 1;
   }
@@ -79,7 +79,7 @@
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #000000;
+    color: #0A0A0A;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -101,6 +101,7 @@
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+    border-radius: 10px;
   }
   
   .experience .timeline .timeline-item.right .timeline-text {
