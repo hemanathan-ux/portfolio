@@ -2699,6 +2699,13 @@ h6 {
     top: 50%;
     left: 50%; }
 
+    .single_portfolio:hover .icon p {
+      color: #FFFFFF;
+    font-size: 16px;
+      }
+
+
+
     
 
 .portfolio_details_inner .row {
