@@ -17,7 +17,8 @@ Author E-mail: naimlasker@gmail.com
 /*Color Variables*/
 /*=================== fonts ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Stoke:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Stoke:wght@300;400&display=swap');
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Medium Layout: 1280px */
@@ -28,29 +29,40 @@ Author E-mail: naimlasker@gmail.com
 /*----------------------------------------------------*/
 body {
   line-height: 26px;
-  font-size: 15px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  color: #777777;
-  /* background: url(../img/body-bg.png) no-repeat center; */
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
   
-  background-color:#f5f4f3;
+  font-weight: 400;
+  color: #F2F2F2;
+  /* background: url(../img/body-bg.png) no-repeat top; */
+
+  background-color:#0e0e0e;
+  /* background-color:#f5f4f3; */
    }
 
    h1
    {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    color: #2F2F2F; }
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    color: #FFFCD7; 
+    }
+    .headingstoke{ 
+      color: transparent;
+      -webkit-text-stroke: 1px #FFFCD7;
+		  text-stroke: 2px #FFFCD7;
+      letter-spacing: 3px;
+      text-shadow: none;
+
+    }
 
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #2F2F2F; }
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  color: #FFFCD7; }
 
 .list {
   list-style: none;
@@ -93,10 +105,10 @@ button:focus {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 .section_gap {
-  padding: 200px 0; }
+  padding: 0 0; }
   @media (max-width: 1199px) {
     .section_gap {
-      padding: 80px 0; } }
+      padding: 0 0; } }
 
 .section_gap_top {
   padding-top: 200px; }
@@ -121,7 +133,8 @@ button:focus {
 
   @media (max-width: 1199px) {
     .main_title {
-      margin-bottom: 50px; } }
+      /* margin-bottom: 50px; */
+     } }
   .main_title h2 {
     font-size: 36px;
     font-weight: 700;
@@ -148,31 +161,34 @@ button:focus {
 
 /* End Main Title Area css
 ============================================================================================ */
+
+
+
 /* Start Gradient Area css
 ============================================================================================ */
 .gradient-bg, .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link, .blog_right_sidebar .widget_title, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .comments-area .btn-reply:hover {
-  background: -webkit-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: -moz-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: -o-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: linear-gradient(90deg, #000000 0%, #2F2F2F 100%); }
+  background: -webkit-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: -moz-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: -o-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: linear-gradient(90deg, #000000 0%, #0e0e0e 100%); }
 
 .border-gradient {
-  border-image: -webkit-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  border-image: -moz-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  border-image: -o-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  border-image: linear-gradient(90deg, #000000 0%, #2F2F2F 100%); }
+  border-image: -webkit-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  border-image: -moz-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  border-image: -o-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  border-image: linear-gradient(90deg, #000000 0%, #0e0e0e 100%); }
 
 .gradient-bg2 {
-  background: -webkit-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: -moz-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: -o-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: linear-gradient(90deg, #000000 0%, #2F2F2F 100%); }
+  background: -webkit-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: -moz-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: -o-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: linear-gradient(90deg, #000000 0%, #0e0e0e 100%); }
 
 .gradient-color, .contact_info .info_item i {
-  background: -webkit-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: -moz-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: -o-linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
-  background: linear-gradient(90deg, #000000 0%, #2F2F2F 100%);
+  background: -webkit-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: -moz-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: -o-linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
+  background: linear-gradient(90deg, #000000 0%, #0e0e0e 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -182,7 +198,7 @@ button:focus {
   display: inline-block;
   color: #fff;
   letter-spacing: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 46px;
@@ -190,30 +206,32 @@ button:focus {
   text-align: center;
   cursor: pointer;
   text-transform: uppercase;
-  border-radius: 5px;
+  /* border-radius: 100px;
   background-origin: border-box;
   background-clip: content-box, border-box;
-  background-image: linear-gradient(to right, #000000 0%, #2F2F2F 100%), radial-gradient(circle at top left, #000000, #2F2F2F);
+  background-image: linear-gradient(to right, #000000 0%, #0e0e0e 100%), radial-gradient(circle at top left, #000000, #0e0e0e);
   border: double 2px transparent;
-  box-shadow: 0px 10px 30pxrgba(58, 57, 58, 0.3); }
-  .primary_btn span {
-    padding: 0 42px; }
+  box-shadow: 0px 10px 30px rgba(58, 57, 58, 0.3);  */
+}
+
+  /* .primary_btn span {
+    padding: 0 32px; }
   .primary_btn.tr-bg {
-    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #000000, #2F2F2F);
+    background-image: linear-gradient(#CB5D45, #C4715F), radial-gradient(circle at top left, #000000, #0e0e0e);
     border: 2px solid transparent;
-    color: #222222;
+    color: #BDBDBD;
     box-shadow: none; }
     .primary_btn.tr-bg:hover {
-      background-image: linear-gradient(to right, #000000 0%, #2F2F2F 100%), radial-gradient(circle at top left, #000000, #2F2F2F);
+      background-image: linear-gradient(to right, (#CB5D45 0%, #C4715F 100%)), radial-gradient(circle at top left, #000000, #0e0e0e);
       border: double 2px transparent;
       color: #ffffff;
       box-shadow: 0px 10px 30px rgba(58, 57, 58, 0.3); }
   .primary_btn:hover {
-    background-image: linear-gradient(#ffffff, #ffffff), radial-gradient(circle at top left, #000000, #2F2F2F);
-    border: 2px solid #2F2F2F;
-    color: #222222;
+    background-image: linear-gradient(#CB5D45, #C4715F), radial-gradient(circle at top left, #000000, #0e0e0e);
+    border: 2px solid #0e0e0e;
+    color: #BDBDBD;
     box-shadow: none;
-    background-clip: border-box; }
+    background-clip: border-box; } */
 
 .overlay {
   position: absolute;
@@ -222,33 +240,159 @@ button:focus {
   height: 100%;
   width: 100%; }
 
-/*---------------------------------------------------- */
+/*--------------------------button-------------------------- */
+.button {
+  position: relative;
+  padding: 2px 20px;
+  border-radius: 100px;
+  margin-top: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  /* background-color: #CB5D45; */
+  transition: all 0.2s ease;
+  background-image: linear-gradient(to right, #1c1c1c 0%, #C4715F 100%), radial-gradient(circle at top left, #000000, #0e0e0e);
+}
+.button:hover {
+  background-image: linear-gradient(#CB5D45, #C4715F), radial-gradient(circle at top left, #000000, #0e0e0e);
+  border: 2px solid #0e0e0e;
+  color: #BDBDBD;
+  box-shadow: none;
+  background-clip: border-box; }
+
+/* .button:active {
+  transform: scale(0.96);
+} */
+.button .primary_btn .text_btn{
+  display: inline-block;
+  color: #BDBDBD;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 46px;
+}
+
+.button:before,
+.button:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+
+.button:hover:before {
+  top: -70%;
+  background-image: radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #CB5D45 20%, transparent 30%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #CB5D45 15%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: greentopBubbles 0.6s ease;
+}
+
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+.button:hover::after {
+  bottom: -70%;
+  background-image: radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #CB5D45 15%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%),
+    radial-gradient(circle, #CB5D45 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
+  background-position: 50% 0%;
+  animation: greenbottomBubbles 0.6s ease;
+}
+
+@keyframes greenbottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%,
+      70% -10%, 70% 0%;
+  }
+
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%,
+      105% 0%;
+  }
+
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%,
+      110% 10%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+
 /*----------------------------------------------------*/
 .header_area {
   position: absolute;
   width: 100%;
   z-index: 9999;
-  background: #ffffff; }
+  background: transparent; 
+ 
+
+
+}
   .header_area .menu_nav {
     width: 100%; }
   .header_area .navbar {
-    background: #f5f4f3;
+    
+    
     padding: 0px;
     border: 0px;
     border-radius: 0px;
-    width: 100%; }
+    width: 100%; 
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+   
+    /* opacity:0.5; */
+    
+     
+  }
     .header_area .navbar .nav .nav-item {
-      margin-right: 45px; }
+      margin-right: 45px; 
+    }
       .header_area .navbar .nav .nav-item .nav-link {
-        font: 500 14px/100px "Montserrat", sans-serif;
+        font: 500 14px/100px "Nunito", sans-serif;
         text-transform: uppercase;
-        color: #000000;
+        color: #BDBDBD;
         padding: 0px;
         display: inline-block; }
         .header_area .navbar .nav .nav-item .nav-link:after {
-          display: none; }
+          display: none; 
+        }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #4458DC; }
+        color: #FFFCD7;
+       }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
         .header_area .navbar .nav .nav-item.submenu ul {
@@ -257,7 +401,8 @@ button:focus {
           border-radius: 0px;
           box-shadow: none;
           margin: 0px;
-          background: #fff; }
+          background: #fff;
+         }
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
@@ -320,7 +465,7 @@ button:focus {
     top: -70px;
     left: 0;
     right: 0;
-    background: #777777;
+    /* background: #0e0e0e; */
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
     -webkit-transition: transform 500ms ease, background 500ms ease;
@@ -345,7 +490,7 @@ button:focus {
       display: none; }
   .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 70px;
-    color: #000000; }
+    color: #BDBDBD; }
 
 .owl-carousel.off {
   display: -ms-flexbox;
@@ -357,7 +502,7 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  background: url(../img/banner/home-banner.png) no-repeat top center;
+  /* background: url(../img/banner/home-banner.png) no-repeat top center; */
   background-position: center;
   background-size: cover; }
   .home_banner_area .banner_inner {
@@ -389,7 +534,7 @@ button:focus {
         
       .home_banner_area .banner_inner .banner_content h1 {
         
-        font-size: 60px;
+        font-size:60px;
         line-height: 60px;
         margin-bottom: 20px;
         margin-top: 20px; 
@@ -405,9 +550,14 @@ button:focus {
         /* margin-bottom: 35px;  */
 
       line-height: 2rem;}
-      .home_banner_area .banner_inner .banner_content .primary_btn {
+      /* .home_banner_area .banner_inner .banner_content .primary_btn {
         margin-right: 20px;
-       }
+       } */
+
+
+       
+
+
 
 .banner_area {
   position: relative;
@@ -430,7 +580,7 @@ button:focus {
         min-height: 350px; } }
     @media (max-width: 991px) {
       .banner_area .banner_inner {
-        background: #2F2F2F;
+        background: #0e0e0e;
         width: 100%; } }
     .banner_area .banner_inner .banner_content {
       margin-left: 50px;
@@ -442,7 +592,7 @@ button:focus {
       .banner_area .banner_inner .banner_content h2 {
         color: #fff;
         font-size: 50px;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Nunito", sans-serif;
         margin-bottom: 10px;
         text-transform: uppercase;
         font-weight: 700; }
@@ -452,7 +602,7 @@ button:focus {
       .banner_area .banner_inner .banner_content .page_link a {
         font-size: 14px;
         color: #fff;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Nunito", sans-serif;
         margin-right: 20px;
         position: relative; }
         .banner_area .banner_inner .banner_content .page_link a:before {
@@ -476,6 +626,7 @@ button:focus {
 /*----------------------------------------------------*/
 
 
+
 /* Latest Blog Area css
 ============================================================================================ */
 /* End Latest Blog Area css
@@ -486,7 +637,7 @@ button:focus {
   padding: 0px 32px;
   font-size: 13px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   color: #000000;
   line-height: 34px;
   display: inline-block; }
@@ -502,7 +653,7 @@ button:focus {
   line-height: 40px;
   padding: 0px 28px;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   -webkit-transition: all 0.4s ease 0s;
@@ -560,7 +711,7 @@ button:focus {
     padding: 30px 35px 40px 30px; }
     .causes_item .causes_text h4 {
       color: #000000;
-      font-family: "Montserrat", sans-serif;
+      font-family: "Nunito", sans-serif;
       font-size: 18px;
       font-weight: 600;
       margin-bottom: 15px;
@@ -570,7 +721,7 @@ button:focus {
     .causes_item .causes_text p {
       font-size: 14px;
       line-height: 24px;
-      color: #777777;
+      color: #0e0e0e;
       font-weight: 300;
       margin-bottom: 0px; }
   .causes_item .causes_bottom a {
@@ -581,7 +732,7 @@ button:focus {
     line-height: 50px;
     background: #000000;
     color: #fff;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 14px;
     font-weight: 500; }
     .causes_item .causes_bottom a + a {
@@ -606,7 +757,7 @@ button:focus {
       padding: 10px 0px 13px;
       transition: all 0.3s linear; }
       .single-recent-blog-post .details .sec_h4:hover {
-        color: #777777; }
+        color: #0e0e0e; }
   .single-recent-blog-post .date {
     font-size: 14px;
     line-height: 24px;
@@ -683,15 +834,15 @@ button:focus {
   .blog_info .post_tag {
     padding-bottom: 20px; }
     .blog_info .post_tag a {
-      font: 300 14px/21px "Montserrat", sans-serif;
+      font: 300 14px/21px "Nunito", sans-serif;
       color: #000000; }
       .blog_info .post_tag a:hover {
-        color: #777777; }
+        color: #0e0e0e; }
       .blog_info .post_tag a.active {
         color: #000000; }
   .blog_info .blog_meta li a {
-    font: 300 14px/20px "Montserrat", sans-serif;
-    color: #777777;
+    font: 300 14px/20px "Nunito", sans-serif;
+    color: #0e0e0e;
     vertical-align: middle;
     padding-bottom: 12px;
     display: inline-block; }
@@ -749,34 +900,34 @@ button:focus {
     line-height: 29px;
     width: 100%;
     font-weight: 300;
-    color: #777777;
+    color: #0e0e0e;
     padding-left: 20px;
     border-radius: 45px;
     z-index: 0;
     border: double 2px transparent;
-    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #000000, #2F2F2F);
-    background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #000000, #2F2F2F);
-    background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #000000, #2F2F2F);
-    background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #000000, #2F2F2F);
-    background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #000000, #2F2F2F);
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #000000, #0e0e0e);
+    background-image: -webkit-linear-gradient(white, white), -webkit-radial-gradient(circle at top left, #000000, #0e0e0e);
+    background-image: -moz-linear-gradient(white, white), -moz-radial-gradient(circle at top left, #000000, #0e0e0e);
+    background-image: -ms-linear-gradient(white, white), -ms-radial-gradient(circle at top left, #000000, #0e0e0e);
+    background-image: -o-linear-gradient(white, white), -o-radial-gradient(circle at top left, #000000, #0e0e0e);
     background-origin: border-box;
     background-clip: content-box, border-box;
     padding: 0;
     text-indent: 20px; }
     .blog_right_sidebar .search_widget .input-group .form-control.placeholder {
-      color: #777777;
+      color: #0e0e0e;
       text-transform: uppercase;
       font-size: 12px; }
     .blog_right_sidebar .search_widget .input-group .form-control:-moz-placeholder {
-      color: #777777;
+      color: #0e0e0e;
       text-transform: uppercase;
       font-size: 12px; }
     .blog_right_sidebar .search_widget .input-group .form-control::-moz-placeholder {
-      color: #777777;
+      color: #0e0e0e;
       text-transform: uppercase;
       font-size: 12px; }
     .blog_right_sidebar .search_widget .input-group .form-control::-webkit-input-placeholder {
-      color: #777777;
+      color: #0e0e0e;
       text-transform: uppercase;
       font-size: 12px; }
     .blog_right_sidebar .search_widget .input-group .form-control:focus {
@@ -1082,7 +1233,7 @@ button:focus {
     color: #cccccc;
     margin-bottom: 13px; }
   .comments-area .comment {
-    color: #777777;
+    color: #0e0e0e;
     margin-bottom: 0px; }
   .comments-area .btn-reply {
     background-color: #fff;
@@ -1131,7 +1282,7 @@ button:focus {
     border-radius: 0px;
     width: 100%;
     font-size: 14px;
-    color: #777777;
+    color: #0e0e0e;
     border: 1px solid transparent; }
     .comment-form .form-control:focus {
       box-shadow: none;
@@ -1177,7 +1328,7 @@ button:focus {
   .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
-    color: "Montserrat", sans-serif;
+    color: "Nunito", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
     color: #000000; }
@@ -1195,7 +1346,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
     border-radius: 0px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1245,7 +1396,7 @@ button:focus {
       text-align: center;
       color: #000000;
       padding-bottom: 10px;
-      font-family: "Montserrat", sans-serif; }
+      font-family: "Nunito", sans-serif; }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
@@ -1507,7 +1658,7 @@ h6 {
   font-size: 14px; }
 
 .typography h1, .typography h2, .typography h3, .typography h4, .typography h5, .typography h6 {
-  color: #777777; }
+  color: #0e0e0e; }
 
 .button-area .border-top-generic {
   padding: 70px 15px;
@@ -1572,7 +1723,7 @@ h6 {
   margin-left: 10px; }
 
 .genric-btn.default {
-  color: #222222;
+  color: #BDBDBD;
   background: #f9f9ff;
   border: 1px solid transparent; }
 
@@ -1585,7 +1736,7 @@ h6 {
   background: #fff; }
 
 .genric-btn.default-border:hover {
-  color: #222222;
+  color: #BDBDBD;
   background: #f9f9ff;
   border: 1px solid transparent; }
 
@@ -1690,29 +1841,29 @@ h6 {
   border: 1px solid transparent; }
 
 .genric-btn.link {
-  color: #222222;
+  color: #BDBDBD;
   background: #f9f9ff;
   text-decoration: underline;
   border: 1px solid transparent; }
 
 .genric-btn.link:hover {
-  color: #222222;
+  color: #BDBDBD;
   border: 1px solid #f9f9ff;
   background: #fff; }
 
 .genric-btn.link-border {
-  color: #222222;
+  color: #BDBDBD;
   border: 1px solid #f9f9ff;
   background: #fff;
   text-decoration: underline; }
 
 .genric-btn.link-border:hover {
-  color: #222222;
+  color: #BDBDBD;
   background: #f9f9ff;
   border: 1px solid transparent; }
 
 .genric-btn.disable {
-  color: #222222, 0.3;
+  color: #BDBDBD, 0.3;
   background: #f9f9ff;
   border: 1px solid transparent;
   cursor: not-allowed; }
@@ -1748,7 +1899,7 @@ h6 {
   display: flex; }
 
 .progress-table .table-head .serial, .progress-table .table-head .country, .progress-table .table-head .visit, .progress-table .table-head .percentage {
-  color: #222222;
+  color: #BDBDBD;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: 500; }
@@ -1843,7 +1994,7 @@ h6 {
 
 .ordered-list li span {
   font-weight: 300;
-  color: #777777; }
+  color: #0e0e0e; }
 
 .ordered-list-alpha li {
   margin-left: 30px;
@@ -1854,7 +2005,7 @@ h6 {
 
 .ordered-list-alpha li span {
   font-weight: 300;
-  color: #777777; }
+  color: #0e0e0e; }
 
 .ordered-list-roman li {
   margin-left: 30px;
@@ -1865,7 +2016,7 @@ h6 {
 
 .ordered-list-roman li span {
   font-weight: 300;
-  color: #777777; }
+  color: #0e0e0e; }
 
 .single-input {
   display: block;
@@ -2447,7 +2598,8 @@ h6 {
 /* Start About Us Area css
 ============================================================================================ */
 .about_area {
-  position: relative; }
+  position: relative;
+ }
   .about_area .main_title {
     margin-bottom: 0px; }
     .about_area .main_title p {
@@ -2456,7 +2608,9 @@ h6 {
     margin-top: 20px; }
   .about_area .about_img {
     position: relative;
-    right: 250px; }
+    padding-top: 60px;
+    /* right: 25px;  */
+  }
     @media (max-width: 1480px) {
       .about_area .about_img {
         right: 0; }
@@ -2582,8 +2736,8 @@ h6 {
       -ms-flex-align: center;
       align-items: center; } }
   .client-info .lage {
-    color: #2F2F2F;
-    font-family: "Montserrat", sans-serif;
+    color: #0e0e0e;
+    font-family: "Nunito", sans-serif;
     font-size: 100px;
     font-weight: 700;
     line-height: 85px;
@@ -2592,7 +2746,7 @@ h6 {
   .client-info .smll {
     text-align: left;
     color: #000000;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 20px;
     margin-left: 20px; }
 
@@ -2607,7 +2761,7 @@ h6 {
     .call-now h3 {
       font-size: 17px; } }
   .call-now p {
-    color: #2F2F2F;
+    color: #0e0e0e;
     font-size: 16px;
     text-transform: uppercase;
     margin-bottom: 5px; }
@@ -2637,14 +2791,14 @@ h6 {
       font-size: 14px;
       font-weight: 500;
       text-transform: uppercase;
-      color: #222222;
+      color: #BDBDBD;
       cursor: pointer;
       -webkit-transition: all 0.4s ease 0s;
       -moz-transition: all 0.4s ease 0s;
       -o-transition: all 0.4s ease 0s;
       transition: all 0.4s ease 0s; }
       .portfolio_area .filters ul li:hover, .portfolio_area .filters ul li.active {
-        color: #4458DC; }
+        color: #ffffff; }
       @media (max-width: 767px) {
         .portfolio_area .filters ul li {
           margin-right: 20px; } }
@@ -2699,7 +2853,7 @@ h6 {
       color: #ffffff;
       cursor: pointer; }
   .single_portfolio:hover .overlay {
-    background: rgba(77, 87, 222, 0.5); }
+    background: rgba(203, 93, 69, 0.5); }
   .single_portfolio:hover .icon {
     opacity: 1;
     visibility: visible;
@@ -2716,12 +2870,14 @@ h6 {
     
 
 .portfolio_details_inner .row {
+  position: relative; 
+  padding-top: 120px;
   margin-bottom: 65px; }
   @media (max-width: 480px) {
     .portfolio_details_inner .row {
       margin-bottom: 30px; } }
 
-      .col-lg-12 portfolio{
+      .col-lg-12 .portfolio{
         padding-left: 0% ;
         padding-right: 0%;
       }
@@ -2745,7 +2901,7 @@ h6 {
     font-weight: normal;
     font-size: 14px; }
     .portfolio_details_inner .portfolio_right_text .list li span {
-      font-family: "Montserrat", sans-serif;
+      font-family: "Nunito", sans-serif;
       color: #000000;
       font-size: 16px;
       font-weight: 500;
@@ -2777,7 +2933,7 @@ h6 {
     .testimonial_area .owl-carousel .owl-dots .owl-dot.active {
       height: 12px;
       width: 12px;
-      background: #2F2F2F; }
+      background: #0e0e0e; }
   @media (max-width: 991px) {
     .testimonial_area .owl-carousel .owl-dots {
       display: none !important; } }
@@ -2869,11 +3025,11 @@ h6 {
     margin-left: 10px;
     background: #ffffff;
     text-transform: uppercase;
-    color: #222222;
+    color: #BDBDBD;
     border-radius: 5px;
     line-height: 48px;
     font-size: 14px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Nunito", sans-serif;
     padding: 0px 38px;
     cursor: pointer; }
     @media (max-width: 767px) {
@@ -3278,7 +3434,7 @@ h6 {
 /* Footer Area css
 ============================================================================================ */
 .blog_version .footer_area {
-  background: #f9f9fd; }
+  background: #0E0E0E; }
   .blog_version .footer_area:before {
     content: none; }
 
@@ -3292,7 +3448,7 @@ h6 {
     left: 0px;
     right: 0px;
     bottom: 0px;
-    background: #f9f9fd;
+    background: #0E0E0E;
     z-index: -1; }
   @media (max-width: 1024px) {
     .footer_area {
@@ -3301,7 +3457,7 @@ h6 {
     text-align: center; }
     .footer_area .footer_logo h4 {
       font-size: 20px;
-      color: #000000;
+      color: #F2F2F2;
       margin-top: 35px;
       text-transform: uppercase; }
   .footer_area .footer_social {
@@ -3310,7 +3466,7 @@ h6 {
     .footer_area .footer_social a {
       padding: 0 20px; }
       .footer_area .footer_social a i {
-        color: #788489;
+        color: #F2F2F2;
         font-size: 22px;
         -webkit-transition: all 0.4s ease 0s;
         -moz-transition: all 0.4s ease 0s;
@@ -3320,13 +3476,13 @@ h6 {
           .footer_area .footer_social a i {
             font-size: 25px; } }
         .footer_area .footer_social a i:hover {
-          color: #2F2F2F; }
+          color: #F2F2F2; }
   .footer_area .footer_bottom {
     text-align: center; }
     .footer_area .footer_bottom p {
       margin-bottom: 0; }
     .footer_area .footer_bottom a {
-      color: #2F2F2F; }
+      color: #F2F2F2; }
 
 /* End Footer Area css
 ============================================================================================ */

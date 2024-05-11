@@ -15,17 +15,17 @@
     content: '';
     position: absolute;
     width: 2px;
-    background: #0A0A0A;
+    background: #777777;
     top: 0;
     bottom: 0;
-    left: 50%;
+    left: 20%;
     margin-left: -1px;
   }
   
   .experience .timeline .timeline-item {
     position: relative;
     background: inherit;
-    width: 50%;
+    width: 70%;
     margin-bottom: 30px;
   }
   
@@ -35,7 +35,7 @@
   }
   
   .experience .timeline .timeline-item.right {
-    left: 50%;
+    left: 20%;
     padding-left: 30px;
   }
   
@@ -79,7 +79,7 @@
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #0A0A0A;
+    color: #F2F2F2;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -97,7 +97,7 @@
   
   .experience .timeline .timeline-text {
     padding: 30px;
-    background: #ffffff;
+    background: #050505;
     position: relative;
     border-right: 5px solid #dddddd;
     box-shadow: 0 0 60px rgba(0, 0, 0, .08);
