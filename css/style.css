@@ -251,7 +251,7 @@ button:focus {
   cursor: pointer;
   /* background-color: #CB5D45; */
   transition: all 0.2s ease;
-  background-image: linear-gradient(to right, #1c1c1c 0%, #C4715F 100%), radial-gradient(circle at top left, #000000, #0e0e0e);
+  background-image: linear-gradient(to right, #C06753 0%, #C4715F 100%), radial-gradient(circle at top left, #000000, #0e0e0e);
 }
 .button:hover {
   background-image: linear-gradient(#CB5D45, #C4715F), radial-gradient(circle at top left, #000000, #0e0e0e);
@@ -2604,8 +2604,8 @@ h6 {
     margin-bottom: 0px; }
     .about_area .main_title p {
       margin-bottom: 20px; }
-  .about_area .primary_btn {
-    margin-top: 20px; }
+  /* .about_area .primary_btn {
+    margin-top: 20px; } */
   .about_area .about_img {
     position: relative;
     padding-top: 60px;
