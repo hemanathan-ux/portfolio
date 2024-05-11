@@ -363,7 +363,8 @@ button:focus {
   .home_banner_area .banner_inner {
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
-      padding-top: 197px; }
+      padding-top: 120px; 
+    }
       @media (max-width: 1480px) {
         .home_banner_area .banner_inner .home_right_img img {
           max-width: 100%;
@@ -375,7 +376,9 @@ button:focus {
       vertical-align: middle;
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
-      text-align: left; }
+      text-align: left;
+      margin-top: 150px; 
+    }
       @media (max-width: 991px) {
         .home_banner_area .banner_inner .banner_content {
           margin-top: 150px; } }
@@ -387,9 +390,9 @@ button:focus {
       .home_banner_area .banner_inner .banner_content h1 {
         
         font-size: 60px;
-        line-height: 80px;
-        /* margin-bottom: 2px;
-        margin-top: 20px;  */
+        line-height: 60px;
+        margin-bottom: 20px;
+        margin-top: 20px; 
       }
         @media (max-width: 1024px) {
           .home_banner_area .banner_inner .banner_content h1 {
