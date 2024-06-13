@@ -44,12 +44,12 @@ body {
    {
     font-family: "Nunito", sans-serif;
     font-weight: 900;
-    color: #FFFCD7; 
+    color: #f8f8f8; 
     }
     .headingstoke{ 
       color: transparent;
-      -webkit-text-stroke: 1px #FFFCD7;
-		  text-stroke: 2px #FFFCD7;
+      -webkit-text-stroke: 1px #f8f8f8;
+		  text-stroke: 2px #f8f8f8;
       letter-spacing: 3px;
       text-shadow: none;
 
@@ -62,7 +62,7 @@ h5,
 h6 {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
-  color: #FFFCD7; }
+  color: #f8f8f8; }
 
 .list {
   list-style: none;
@@ -391,7 +391,7 @@ button:focus {
           display: none; 
         }
       .header_area .navbar .nav .nav-item:hover .nav-link, .header_area .navbar .nav .nav-item.active .nav-link {
-        color: #FFFCD7;
+        color: #f8f8f8;
        }
       .header_area .navbar .nav .nav-item.submenu {
         position: relative; }
