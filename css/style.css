@@ -35,8 +35,7 @@ body {
   
   font-weight: 400;
   color: #D5D5DD;
-  /* background: url(../img/body-bg.png) no-repeat top; */
-
+ 
   background-color:#0e0e0e;
   /* background-color:#f5f4f3; */
    }
@@ -62,7 +61,7 @@ h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 600;
   color: #D5D5DD; }
 
 .list {
@@ -104,6 +103,8 @@ button:focus {
   margin-top: 50px; }
 
 /*---------------------------------------------------- */
+
+
 /*----------------------------------------------------*/
 .section_gap {
   padding: 0 0; }
@@ -503,10 +504,16 @@ button:focus {
 ============================================================================================ */
 .home_banner_area {
   z-index: 1;
-  /* background: url(../img/banner/home-banner.png) no-repeat top center; */
+  /* background: url(img\banner\homegif.gif) no-repeat top center;
   background-position: center;
-  background-size: cover; }
+  background-size: cover; */
+
+
+text-align:center;
+}
   .home_banner_area .banner_inner {
+    
+    text-align:center;
     width: 100%; }
     .home_banner_area .banner_inner .home_right_img {
       padding-top: 120px; 
@@ -3196,7 +3203,7 @@ h6 {
     padding-top: 80px !important;
     padding-bottom: 80px !important;
     background-image: none !important;
-    background-color: #fcf8ff; }
+    background-color: #0e0e0e; }
 
   /* Blog page Area css
   ============================================================================================ */
